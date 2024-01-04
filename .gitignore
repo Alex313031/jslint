@@ -6,6 +6,7 @@ dist/
 build/
 src/static/*.css
 
+src/*
 coverage/
 
 yarn.lock

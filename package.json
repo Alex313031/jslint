@@ -15,7 +15,8 @@
     "test": "npm run lint",
     "lint": "eslint ./src/ ./test/",
     "clean": "rimraf ./src/node_modules && rimraf ./node_modules",
-    "burn": "rimraf ./package-lock.json"
+    "burn": "rimraf ./package-lock.json",
+    "preinstall": "mkdir -p src"
   },
   "dependencies": {
     "rimraf": "3.0.2",
